@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <form oninput="result.value = age.value">
+        <label for="name">Nmae: </label>
+        <input type="text" id="name" name="name" required> 
+        <label for="dob">Date of Birth: </label>
+        <input type="date" id="dob" name="dob" required>
+        <label for="age">Age:</label>
+        <input type="range" id="age" name="age" min="18" step="2" max="100">
+        <output name="result" for="age">20</output>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="website">Website:</label>
+        <input type="url" id="website" name="website" >
+        <button type="submit">Sign up</button>
+    </form>
+</body>
+</html>
